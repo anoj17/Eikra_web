@@ -8,6 +8,9 @@ import { FaGraduationCap } from 'react-icons/fa';
 import Button from '../../components/Button';
 import MultiCarousel from '../../components/MultiCarousel';
 import Video from '../../components/Video';
+import SkilledInstructor from '../../components/SkilledInstructor';
+import Post from '../../components/Post';
+import Event from '../../components/Event';
 
 const Home = () => {
   const [changeImage, setChangeImage] = useState(0)
@@ -112,10 +115,23 @@ const Home = () => {
         <div className='h-[90vh]'>
           <MultiCarousel/>
         </div>
-{/* 
+
       <div className=''>
         <Video/>
-      </div> */}
+      </div>
+
+      <div>
+      <SkilledInstructor/>
+      </div>
+
+      <div className='md:flex md:justify-between bg-#[666]'>
+        <div>
+          <Post/>
+        </div>
+        <div className='ml-12'>
+          <Event/>
+        </div>
+      </div>
           
     </>
   );

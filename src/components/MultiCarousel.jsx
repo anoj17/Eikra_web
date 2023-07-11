@@ -76,7 +76,7 @@ const MultiCarousel = () => {
     {/* <div className='bg-black'> */}
     <span className='text-secondary pl-4 text-4xl font-bold absolute left-4'>Featured courses
     </span>
-  <Carousel className='relative pt-10' responsive={responsive} infinite={true} transitionDuration={500} customTransition="all .5" autoPlaySpeed={1000} arrows={true} customRightArrow={<Arrow label={<IoIosArrowForward size={30}/>} className='absolute text-white right-2 top-3 '/>} customLeftArrow={<Arrow label={<IoIosArrowBack size={30}/>} className='absolute text-white right-11 top-3'/>}>
+  <Carousel className='relative pt-10' responsive={responsive} infinite={true} transitionDuration={500} customTransition="all .5" autoPlaySpeed={1000} arrows={true} customRightArrow={<Arrow label={<IoIosArrowForward size={30}/>} className='absolute text-white right-2 top-3'/>} customLeftArrow={<Arrow label={<IoIosArrowBack size={30}/>} className='absolute text-white right-11 top-3'/>}>
     {
          product.map((item)=>(
             <Products text={item.text} img={item.img}/>

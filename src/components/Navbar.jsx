@@ -32,7 +32,7 @@ const Navbar = () => {
             
             <div className='flex text-secondary hover:text-yellow'>
             <li className='group cursor-pointer uppercase font-bold hover:border-yellow py-2'>Category
-              <div className='absolute overflow-hidden hidden group-hover:block  text-secondary'>
+              <div className='absolute overflow-hidden hidden group-hover:block  text-secondary z-[999999]'>
                 <ul className='flex-col bg-secondary p-2 mt-9 items-start text-white justify-start'>
                 <li className='py-3 px-16 border-b-[.5px] border-[#204075] hover:bg-[#204075] w-full cursor-pointer hover:text-yellow font-medium'>Kids</li>
                 <li className='py-3 px-16 border-b-[.5px] border-[#204075] hover:bg-[#204075] w-full cursor-pointer hover:text-yellow font-medium'>Development</li>
@@ -46,7 +46,7 @@ const Navbar = () => {
            
             <div className='flex hover:text-yellow text-secondary '>
             <li className='group cursor-pointer font-bold py-2'>Home
-              <div className='absolute overflow-hidden hidden group-hover:block '>
+              <div className='absolute overflow-hidden hidden group-hover:block z-[999999]'>
                 <div className='flex justify-around items-center bg-secondary p-2 mt-9'>
                 <ul className='flex-col items-start text-white justify-start'>
                 <li className='py-3 px-16 border-b-[.5px] border-[#204075] hover:bg-[#204075] w-full cursor-pointer hover:text-yellow font-medium'>Home 1</li>
@@ -68,7 +68,7 @@ const Navbar = () => {
 
             <div className='flex hover:text-yellow  text-secondary'>
             <li className='group cursor-pointer py-2 font-bold overflow-hidden'>Page
-              <div className='absolute overflow-hidden text-white hidden group-hover:block '>
+              <div className='absolute overflow-hidden text-white hidden group-hover:block z-[999999] '>
                 <div className='flex justify-around items-center bg-secondary p-2 mt-9'>
                 <ul className='flex-col items-start text-white justify-start'>
                 <li className='py-3 px-16 border-b-[.5px] border-[#204075] hover:bg-[#204075] w-full cursor-pointer hover:text-yellow font-medium'>ABOUTUS 1</li>
@@ -96,7 +96,7 @@ const Navbar = () => {
            
             <div className='flex hover:text-yellow text-secondary'>
             <li className='group cursor-pointer py-2 font-bold overflow-hidden'>Category
-              <div className='absolute overflow-hidden text-white hidden group-hover:block '>
+              <div className='absolute overflow-hidden text-white hidden group-hover:block z-[999999] '>
                 <ul className='flex-col bg-secondary p-2 mt-9 items-start text-white justify-start'>
                 <li className='py-3 px-16 border-b-[.5px] border-[#204075] hover:bg-[#204075] w-full cursor-pointer hover:text-yellow font-medium'>INFO INBOX</li>
                 <li className='py-3 px-16 border-b-[.5px] border-[#204075] hover:bg-[#204075] w-full cursor-pointer hover:text-yellow font-medium'>COURSE</li>
@@ -115,7 +115,7 @@ const Navbar = () => {
 
             <div className='flex hover:text-yellow  text-secondary'>
             <li className='group cursor-pointer py-2 font-bold overflow-hidden'>Course
-              <div className='absolute overflow-hidden text-white hidden group-hover:block '>
+              <div className='absolute overflow-hidden text-white hidden group-hover:block z-[999999] '>
                 <ul className='flex-col bg-secondary p-2 mt-9 items-start text-white justify-start'>
                 <li className='py-3 px-16 border-b-[.5px] border-[#204075] hover:bg-[#204075] w-full cursor-pointer hover:text-yellow font-medium'>COURCSE</li>
                 <li className='py-3 px-16 border-b-[.5px] border-[#204075] hover:bg-[#204075] w-full cursor-pointer hover:text-yellow font-medium'>SINGLE COURSE</li>
@@ -129,7 +129,7 @@ const Navbar = () => {
 
             <div className='flex hover:text-yellow text-secondary'>
             <li className='group cursor-pointer py-2 font-bold  overflow-hidden'>Reasearch
-              <div className='absolute overflow-hidden text-white transition hidden group-hover:block '>
+              <div className='absolute overflow-hidden text-white transition hidden group-hover:block z-[999999] '>
                 <ul className='flex-col bg-secondary p-2 mt-9 items-start text-white justify-start'>
                 <li className='py-3 px-16 border-b-[.5px] border-[#204075] hover:bg-[#204075] w-full cursor-pointer hover:text-yellow font-medium'>REASEARCH 1</li>
                 <li className='py-3 px-16 border-b-[.5px] border-[#204075] hover:bg-[#204075] w-full cursor-pointer hover:text-yellow font-medium'>REASEARCH 2</li>
@@ -143,7 +143,7 @@ const Navbar = () => {
             
             <div className='flex hover:text-yellow text-secondary'>
             <li className='group cursor-pointer py-2 font-bold overflow-hidden'>News
-              <div className='absolute overflow-hidden text-white hidden group-hover:block  '>
+              <div className='absolute overflow-hidden text-white hidden group-hover:block z-[999999]  '>
                 <ul className='flex-col bg-secondary p-2 mt-9 items-start text-white justify-start'>
                 <li className='py-3 px-16 border-b-[.5px] border-[#204075] hover:bg-[#204075] w-full cursor-pointer hover:text-yellow font-medium'>NEWS 1</li>
                 <li className='py-3 px-16 border-b-[.5px] border-[#204075] hover:bg-[#204075] w-full cursor-pointer hover:text-yellow font-medium'>NEWS 2</li>
@@ -157,7 +157,7 @@ const Navbar = () => {
            
            <div className='flex hover:text-yellow text-secondary'>
             <li className='group cursor-pointer py-2 font-bold overflow-hidden'>Contact
-              <div className='absolute overflow-hidden text-white hidden group-hover:block '>
+              <div className='absolute overflow-hidden text-white hidden group-hover:block z-[999999] '>
                 <ul className='flex-col bg-secondary p-2 mt-9 items-start text-white justify-start'>
                 <li className='py-3 px-16 border-b-[.5px] border-[#204075] hover:bg-[#204075] w-full cursor-pointer hover:text-yellow font-medium'>CONTACT 1</li>
                 <li className='py-3 px-16 border-b-[.5px] border-[#204075] hover:bg-[#204075] w-full cursor-pointer hover:text-yellow font-medium'>CONTACT 2</li>
@@ -194,7 +194,7 @@ const Navbar = () => {
         </div>
       </nav>
       {
-        menu ? <div className='lg:hidden absolute pt-5 flex-col items-center justify-center w-full'>
+        menu ? <div className='lg:hidden absolute pt-5 bg-primary flex-col items-center justify-center w-full'>
         <ul className='flex md:flex-row flex-col items-center justify-center gap-4'>
           <li className='cursor-pointer hover:text-yellow font-medium'>Category</li>
           <li className='cursor-pointer hover:text-yellow font-medium'>Home</li>
