@@ -6,7 +6,7 @@ export default {
   ],
   theme: {
     colors : {
-        primary : '#204075', secondary : '#183058', yellow : '#FFFF00',darkYellow: '#F6BE00', white : '#FFFFFF',black :'#000000'
+        primary : '#204075', secondary : '#183058',lightWhite : '#E8E8E8', yellow : '#FFFF00',darkYellow: '#F6BE00', white : '#FFFFFF',black :'#000000'
     },
     extend: {
       keyframes: {

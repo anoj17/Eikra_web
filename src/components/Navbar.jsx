@@ -16,7 +16,7 @@ const Navbar = () => {
   return <>
 
     <div className='bg-white py-2'>
-      <nav className='flex justify-between items-center w-[92%] m-auto overflow-y-hidden text-white'>
+      <nav className='flex justify-between items-center w-[95%] m-auto overflow-y-hidden text-white'>
 
         <div className='flex justify-between items-center'>
           <div className='flex'>

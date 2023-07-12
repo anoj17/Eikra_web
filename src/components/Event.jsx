@@ -4,7 +4,7 @@ const Event = () => {
   return <>
   
   <div>
-    <h1 className='text-2xl py-12 px-16 text-secondary font-semibold font-poppins'>Upcomming Events</h1>
+    <h1 className='text-3xl py-12 px-16 text-secondary font-semibold font-poppins'>Upcomming Events</h1>
     <div className='flex pl-14 shadow-md'>
       <div className='h-[12rem]'>
       <div className='h-[6rem] w-[7rem] bg-darkYellow relative'>
@@ -28,7 +28,7 @@ const Event = () => {
         </div>
     </div>
 
-    <div className='flex pl-14 mt-9 shadow-md'>
+    <div className='flex pl-14 mt-9 md:mt-20 shadow-md'>
       <div className='h-[12rem]'>
       <div className='h-[6rem] w-[7rem] bg-darkYellow relative'>
         <div className='h-[15px] absolute left-4 top-2 w-[15px] rounded-full bg-secondary'></div>

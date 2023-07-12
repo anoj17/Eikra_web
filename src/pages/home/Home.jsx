@@ -11,12 +11,13 @@ import Video from '../../components/Video';
 import SkilledInstructor from '../../components/SkilledInstructor';
 import Post from '../../components/Post';
 import Event from '../../components/Event';
+import CounterUp from '../../components/CounterUp';
+import StudentSay from '../../components/StudentSay';
 
 const Home = () => {
   const [changeImage, setChangeImage] = useState(0)
 
   const slide =[
-
     {url:home1},
     {url:home2},
     {url:home3}
@@ -51,7 +52,7 @@ const Home = () => {
             <h1 className='text-white font-bold text-[1.8rem] md:text-[3.1rem] md:text-left'>Theme for 2018</h1>
           </div>
 
-          <div className=' animate-to-right pt-3 flex justify-center items-center md:text-[1.5rem] md:pt-7 md:pr-[8rem] text-[.8rem] px-2'>
+          <div className=' animate-to-right pt-3 flex justify-center items-center md:text-[1.5rem] md:pt-7 md:pr-[8rem] text-[.8rem] px-4'>
           <p className='text-white'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum facere animi repudiandae qui
             minima sequi, asperiores possimus
             repellat ducimus ab adipisci.</p>
@@ -132,7 +133,26 @@ const Home = () => {
           <Event/>
         </div>
       </div>
+
+      <div>
+        <CounterUp/>
+      </div>
+
+      <div>
+        <StudentSay/>
+      </div>
           
+      <div className='mt-9 px-9 py-24 md:py-20 bg-darkYellow h-[77vh] md:flex'>
+
+        <div>
+            <img src="https://radiustheme.com/demo/wordpress/eikra/wp-content/uploads/2017/10/all.jpg" alt="/img" />
+        </div>
+        <div className='flex flex-col bg-secondary py-12 md-py-40 justify-center items-center'>
+          <h1 className='text-3xl font-semibold md:text-3xl flex justify-center items-center text-white'>Join 29,12,093 Students</h1>
+          <button className='bg-darkYellow uppercase font-medium mt-5 py-2 px-4'>Join Now</button>
+        </div>
+
+      </div>
     </>
   );
 }
