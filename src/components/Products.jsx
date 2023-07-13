@@ -17,7 +17,7 @@ const Products = (props) => {
         </div>
     </div>
     <div className='overflow-hidden'>
-    <h1 className='text-[1.3rem] px-3 cursor-pointer transition duration-700 pb-2 hover:text-yellow text-secondary font-bold'>{props.text}</h1>
+    <h1 className='text-[1.3rem] cursor-pointer transition duration-700 pb-2 hover:text-yellow text-secondary font-bold'>{props.text}</h1>
     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur ratione, accusantium maxime quisquam excepturi odit  esse officiis impedit.</p>
     </div>
     <div className='flex justify-between items-center py-4 px-3 mt-5 shadow-md'>

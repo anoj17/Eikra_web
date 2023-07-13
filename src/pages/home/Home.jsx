@@ -13,6 +13,14 @@ import Post from '../../components/Post';
 import Event from '../../components/Event';
 import CounterUp from '../../components/CounterUp';
 import StudentSay from '../../components/StudentSay';
+import Education from '../../components/Education';
+import { IoIosCall } from 'react-icons/io'
+import { MdLocationOn } from 'react-icons/md'
+import { GrMail } from 'react-icons/gr'
+import { GrFacebookOption } from 'react-icons/gr'
+import { BsTwitter } from 'react-icons/bs'
+import { AiOutlineGooglePlus, AiFillYoutube } from 'react-icons/ai'
+import { BiWifi2 } from 'react-icons/bi'
 
 const Home = () => {
   const [changeImage, setChangeImage] = useState(0)
@@ -34,6 +42,7 @@ const Home = () => {
     const isLastIndex = lastIndex ? 0 : changeImage + 1
       setChangeImage(isLastIndex)
   }
+ 
   return (
     <>
       <section className='h-[90vh] w-full'>
@@ -67,7 +76,7 @@ const Home = () => {
           </div>
       
         </div>
-        <div className='grid md:grid-cols-3 md:absolute md:top-[79.5%] md:mx-6'>
+        <div className='grid md:grid-cols-3 md:absolute md:top-[77.5%] md:mx-6'>
           <div className='group md:bg-opacity-60 md:py-3 flex justify-around items-center py-8 px-2 bg-primary border border-yellow md:px-4 text-white'>
             <div>
             <h1 className='group-hover:text-yellow text-3xl font-semibold transition duration-1000 ease-in-out md:text-2xl'>Scholarship Facility</h1>
@@ -142,17 +151,127 @@ const Home = () => {
         <StudentSay/>
       </div>
           
-      <div className='mt-9 px-9 py-24 md:py-20 bg-darkYellow h-[77vh] md:flex'>
-
+      <div className='mt-9 px-20 py-24 md:py-10 h-[75vh] md:flex justify-center items-center bg-darkYellow'>
+      
+      <div className='md:mt-10 md:flex'>
         <div>
             <img src="https://radiustheme.com/demo/wordpress/eikra/wp-content/uploads/2017/10/all.jpg" alt="/img" />
         </div>
-        <div className='flex flex-col bg-secondary py-12 md-py-40 justify-center items-center'>
-          <h1 className='text-3xl font-semibold md:text-3xl flex justify-center items-center text-white'>Join 29,12,093 Students</h1>
-          <button className='bg-darkYellow uppercase font-medium mt-5 py-2 px-4'>Join Now</button>
+        <div className='flex flex-col bg-secondary py-10 justify-center items-center'>
+         
+          <h1 className='text-3xl font-semibold md:text-3xl md:pl-14 text-white'>Join 29,12,093 Students</h1>
+            
+          <button className='bg-darkYellow uppercase font-medium mt-7 py-2 px-4'>Join Now</button>
+        </div>
+        </div>
+      </div>
+
+      <div className='px-5 h-[13rem] w-full'>
+        <Education/>
+      </div>
+
+    <div className='bg-secondary py-5 md:py-8 mt-5 w-full flex flex-col'>
+      <div className='w-full px-10 md:flex justify-around md:px-16'>
+        <div className='text-white mt-10'>
+          <h1 className='text-xl font-semibold'>Company</h1>
+          <div className='h-[5px] rounded-lg mt-3 w-[3rem] bg-darkYellow'></div>
+          <h2 className='font-medium text-[.9rem] mt-5'>About</h2>
+          <h2 className='font-medium text-[.9rem] mt-5'>Pricing</h2>
+          <h2 className='font-medium text-[.9rem] mt-5'>News</h2>
+          <h2 className='font-medium text-[.9rem] mt-5'>Career</h2>
+          <h2 className='font-medium text-[.9rem] mt-5'>Contact</h2>
+          <h2 className='font-medium text-[.9rem] mt-5'>Events</h2>
         </div>
 
+        <div className='text-white mt-10'>
+          <h1 className='text-xl font-semibold'>Explore Courses</h1>
+          <div className='h-[5px] rounded-lg mt-3 w-[3rem] bg-darkYellow'></div>
+          <h2 className='font-medium text-[.9rem] mt-5'>Courses</h2>
+          <h2 className='font-medium text-[.9rem] mt-5'>Course Two</h2>
+          <h2 className='font-medium text-[.9rem] mt-5'>Single course</h2>
+          <h2 className='font-medium text-[.9rem] mt-5'>Profile</h2>
+          <h2 className='font-medium text-[.9rem] mt-5'>Login/Register</h2>
+          <h2 className='font-medium text-[.9rem] mt-5'>My account</h2>
+        </div>
+
+        <div className='mt-10'>
+          <h1 className='text-xl text-white font-semibold'>Contact</h1>
+          <div className='h-[5px] rounded-lg mt-3 w-[3rem] bg-darkYellow'></div>
+
+          <div className='mt-6 py-2 border-b border-white'>
+            <div className='text-white flex'>
+              <MdLocationOn size={20}/>
+              <h1 className='font-medium text-[.9rem] pl-2'>Location :</h1>
+            </div>
+            <h1 className='font-medium text-[1rem] mt-2 text-white'>59 Street, NewYork City</h1>
+          </div>
+
+          <div className='mt-6 py-2 border-b border-white'>
+            <div className='text-white flex'>
+              <IoIosCall size={20}/>
+              <h1 className='font-medium text-[.9rem] pl-2'>Call Us :</h1>
+            </div>
+            <h1 className='font-medium text-[1rem] mt-2 text-white'>59 Street, NewYork City</h1>
+          </div>
+
+          <div className='mt-6 py-2'>
+            <div className='text-white flex'>
+              <GrMail size={20}/>
+              <h1 className='font-medium text-[.9rem] pl-2'>Mail Us :</h1>
+            </div>
+            <h1 className='font-medium text-[1rem] mt-2 text-white'>59 Street, NewYork City</h1>
+          </div>
+        </div>
+
+        <div className='mt-10 ml-8 '>
+          <h1 className='text-2xl text-white font-semibold'>NewsLetter</h1>
+          <div className='h-[5px] rounded-lg mt-3 w-[3rem] bg-darkYellow'></div>
+          <h1 className='font-medium text-[1.1rem] text-white md:mt-8 md:text-[.9rem] mt-12'>Fusce varittus, dolor tempor interdum<br/> tristiquei bibendum</h1>
+          <div className='md:flex flex-col'>
+          <input placeholder='E-mail' className='text-white hover:border-darkYellow transition duration-300 ease-in-out text-[1rem] px-[12rem] mt-7 border md:px-2 border-[#777] py-3 md:py-2 bg-secondary pl-4'/>
+          <button className='bg-darkYellow md:w-[9rem] hover:brightness-75 transition duration-400 ease-in-out md:text-[.9rem] mt-2 text-[1.1rem] rounded-md text-[#333] font-bold py-3 px-5'>Subscribe Now</button>
+          </div>
+        </div>
       </div>
+
+    <div className='flex flex-col justify-center items-center border border-[#999] md:border-0 md:mt-[4rem] mt-[6rem] py-6'>
+      <div className='h-[1px] absolute w-full bg-[#777]'></div>
+      <div className='text-white relative top-0 flex justify-between items-center '>
+        <div className='px-1 rounded-full border bg-secondary border-[#777] py-1'>
+        <GrFacebookOption size={25} />
+        </div>
+            
+        <div className='px-1 mx-2 md:mx-5 rounded-full border bg-secondary border-[#777] py-1'>
+        <BsTwitter size={25}/>
+        </div>
+
+        <div className='px-1 rounded-full border bg-secondary border-[#777] py-1'>  
+        <AiOutlineGooglePlus size={25} />
+        </div>
+
+        <div className='px-1 mx-2 md:mx-5 rounded-full border bg-secondary border-[#777] py-1'>  
+        <AiFillYoutube size={25}/>
+        </div>
+
+        <div className='px-1 rounded-full border bg-secondary border-[#777] py-1'>  
+        <BiWifi2 size={25} className=' rotate-45'/>
+        </div>
+     </div>
+     </div>
+
+     <div className=' flex flex-col justify-center items-center py-2 md:py-0 md:flex-row md:justify-between md:px-28 md:items-center'>
+      <div className='flex'>
+      <div className='text-secondary py-2 px-2 bg-yellow flex items-center justify-center rounded-[50%]'>
+        <FaGraduationCap size={20} className=' -rotate-12'/>
+      </div>
+        <h1 className='text-white ml-1 font-medium text-2xl uppercase'>Eikra</h1>
+      </div>
+     <div className='text-[#999] text-[.8rem] font-medium mt-4'>
+      &copy; Copyright Eikra {new Date().getFullYear()}. Designed and Developed by RadiusTheme
+     </div>
+     </div>
+
+    </div>
     </>
   );
 }
